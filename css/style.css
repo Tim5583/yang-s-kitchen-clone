@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  font-family: "Wendelin";
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #222;
+  padding: 1.5em 3em;
+  cursor: pointer;
+}
+
+hr {
+  max-width: 900px;
+  margin: auto;
+  opacity: .3;
+}
+
+a {
+  color: black;
+}
+
+.nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 0;
+}
+
+.nav .nav-logo {
+  width: 100%;
+  max-width: 240px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.nav .nav-item-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-item-div .fa-instagram {
+  margin-left: 5px;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.nav .nav-items {
+  list-style-type: none;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav .nav-items li + li {
+  margin-left: 10px;
+}
+
+.nav .nav-items .first-row {
+  margin-bottom: 20px;
+}
+
+.nav .nav-items a {
+  text-decoration: none;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section1 {
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 60px auto 30px;
+  max-width: 900px;
+}
+
+.section1 p {
+  line-height: 29px;
+  letter-spacing: .04em;
+  margin-bottom: 20px;
+}
+
+.section1 h3 {
+  font-size: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.section1 h2, .section1 button {
+  font-size: 16px;
+  margin: 20px auto;
+  font-weight: bolder;
+}
+
+.section1 h2 {
+  margin: 40px auto 20px;
+}
+
+.section1 .order-online {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  text-decoration: none;
+}
+
+.section1 .btn {
+  font-weight: 400;
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+}
+
+.section1 .btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.zerofootprint {
+  text-align: center;
+  font-size: 16px;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.zerofootprint h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 30px auto 20px;
+}
+
+.zerofootprint p {
+  font-size: 11px;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 80px auto 100px;
+}
+
+.row div {
+  text-align: center;
+  line-height: 29px;
+}
+
+.row .col-header {
+  margin: 20px auto 10px;
+  font-family: serif;
+}
+
+.row .col-contact, .row .col-location {
+  line-height: 20px;
+}
+
+.showcase .showcase-sub1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.showcase .showcase-sub1 img {
+  width: 100%;
+}
+
+.showcase .showcase-sub1 .emblemicon {
+  width: 30%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.showcase .showcase-sub1 p {
+  line-height: 24px;
+  width: 90%;
+}
+
+.showcase .course-img {
+  width: 100%;
+  margin-top: 130px;
+}
+
+.seenin h2 {
+  font-family: serif;
+  font-size: 13px;
+  letter-spacing: 10px;
+  width: 1000px;
+  margin: 0 auto 40px;
+}
+
+.seenin-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.seenin-row .seenin-col {
+  width: 200px;
+}
+
+.seenin-row .seenin-col a {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.seenin-row img {
+  width: 100%;
+}
+
+.social-media {
+  width: 900px;
+  margin: 40px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 29px;
+}
+
+.social-media h2 {
+  font-size: 15px;
+  font-family: serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.social-media div {
+  margin-left: 15px;
+}
+
+.social-media div p {
+  text-transform: lowercase;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto;
+}
+
+.carousel .carousel-sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel button {
+  position: absolute;
+  padding: 1.1rem 0.9rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.carousel button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel .btn-right {
+  right: 0;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.copyright {
+  text-align: center;
+  max-width: 900px;
+  margin: 80px auto;
+  letter-spacing: 2px;
+}
+
+.footer {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 900px;
+  margin: 100px auto 40px;
+}
+
+.footer h1 {
+  font-size: 16px;
+}
+
+.footer span {
+  color: red;
+}
+
+.footer a {
+  text-decoration: none;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
