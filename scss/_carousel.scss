@@ -1,0 +1,42 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    margin: 30px auto;
+
+    .carousel-sub {
+        display: flex;
+        transition: transform 500ms;
+        transform: translateX(0px);
+    }
+
+    button {
+        position: absolute;
+        padding: 1.1rem 0.9rem;
+        background-color: rgba(0, 0, 0,  0.4);
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    button:hover {
+        background-color: rgba(0, 0, 0,  0.6);
+    }
+
+    .btn-right {
+        right: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel {
+        height: 300px;
+
+        .carousel-sub {
+            height: 100%;
+        }
+    }
+}
