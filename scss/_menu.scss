@@ -1,0 +1,19 @@
+.menu-container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+
+    .menu-p {
+        width: 90%;
+        margin: 10px auto 20px;
+        line-height: 29px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}

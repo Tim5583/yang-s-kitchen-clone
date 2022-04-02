@@ -4,63 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Yang's kitchen contact us</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="./images/yangskitchen-logo.png" alt="">
-            <ul>
-                <li><a href="/">MENU</a></li>
-                <li><a href="https://www.toasttab.com/yangs-kitchen/">ORDER TO-GO</a></li>
-                <li><a href="https://www.toasttab.com/yangs-kitchen/giftcards">GIFT CARDS</a></li>
-                <li><a href="/">CATERING & PRIVATE PARTY INQUIRIES</a></li>
-                <li><a href="/">CONTACT</a></li>
-            </ul>
+        <nav class="nav" style="margin: auto;">
+            <div></div>
+            <a href="/" class="nav-logo"><img src="./images/yangskitchen-logo.png" alt="" class="nav-logo"></a>
+            <div class="nav-item-div">
+                <ul class="nav-items">
+                    <button class="nav-close">X</button>
+                    <li class="first-row"><a href="menu.html">MENU</a></li>
+                    <li class="first-row"><a href="https://www.toasttab.com/yangs-kitchen/">ORDER TO-GO</a></li>
+                    <li class="first-row"><a href="https://www.toasttab.com/yangs-kitchen/giftcards">GIFT CARDS</a></li>
+                    <li><a href="inquiries.html">CATERING & PRIVATE PARTY INQUIRIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <i class="fa-brands fa-instagram"></i>
+                <div class="hamburger-icon">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                </div>
+            </div>
+            
         </nav>
     </header>
 
-    <main>
-        <h1>CONTACT US</h1>
-        <p>Please complete the form below.</p>
+    <main class="contact-container">
+        <h1 class="contact-h1">CONTACT US</h1>
+        <p class="contact-p">Please complete the form below.</p>
     
         <form action="">
-            <div>
-                <label for="firstname">Name*</label>
-                <div>
-                    <div>
-                        <input type="text" name="firstname" id="firstname">
-                        <small>First Name</small>
+            <div class="">
+                <label for="firstname" class="input-label">Name*</label>
+                <div class="fullname">
+                    <div class="input-group firstname-div"> 
+                        <input type="text" name="firstname" id="firstname" class="input-el">
+                        <label for="firstname" class="input-label">First Name</label>
                     </div>
-                    <div>
-                        <input type="text" name="lastname" id="lastname">
-                        <small>Last Name</small>
+                    <div class="input-group lastname-div">
+                        <input type="text" name="lastname" id="lastname" class="input-el">
+                        <label for="lastname" class="input-label">Last Name</label>
                     </div>
                 </div>
             </div>
 
-            <div>
-                <label for="email">Email*</label>
-                <input type="email" name="email" id="email">
+            <div class="input-group">
+                <label for="email" class="input-label">Email*</label>
+                <input type="email" name="email" id="email" class="input-el">
             </div>
 
-            <div>
-                <label for="subject">Subject*</label>
-                <input type="text" name="subject" id="subject">
+            <div class="input-group">
+                <label for="subject" class="input-label">Subject*</label>
+                <input type="text" name="subject" id="subject" class="input-el">
             </div>
 
-            <div>
-                <label for="message">Message*</label>
-                <textarea name="message" id="message"  rows="10"></textarea>
+            <div class="input-group">
+                <label for="message" class="input-label">Message*</label>
+                <textarea name="message" id="message"  rows="10" class="input-el textarea-el"></textarea>
             </div>
 
-            <input type="submit" value="SUBMIT">
+            <input type="submit" value="SUBMIT" class="btn">
         </form>
     </main>
 
-    <footer> Yang's Kitchen<span>112 West Main Street,Alhambra, CA, 91801,United States</span>
+    <footer class="footer"> 
+        <div class="footer-header">
+            <h1>Yang's Kitchen</h1>
+            <span>112 West Main Street,Alhambra, CA, 91801,United States</span>
+        </div>
         <a href="tel:6262811035">6262811035</a>
         <a href="mailto:hello@yangskitchenla.com">hello@yangskitchenla.com</span> 
     </footer>
+    <script src="./js/nav.js"></script>
 </body>
 </html>

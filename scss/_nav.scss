@@ -1,0 +1,116 @@
+.nav {  
+    padding: 35px 0px;
+    max-width: 1200px;
+    .nav-logo {
+        width: 100%;
+        max-width: 240px;
+    }
+
+    .hamburger-icon {
+        cursor: pointer;
+        .line-1, .line-2 {
+            width: 30px;
+            height: 2px;
+            background-color: black;
+        }
+
+        .line-1 {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        
+        .nav-items, .fa-instagram {
+            display: none;
+        }
+
+        .open.nav-items {
+            list-style-type: none;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100vh;
+            text-align: center;
+            background-color: rgb(226, 218, 235);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            .nav-close {
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                padding: .5rem;
+                background-color: transparent;
+                border: none;
+                font-size: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+
+        .nav-close {
+            display: none;
+        }
+    
+        .nav-logo {
+            justify-self: center;
+        }
+    
+        .nav-item-div {
+            display: flex;
+            align-items: center;
+    
+            .fa-instagram {
+                margin-left: 5px;
+                opacity: .5;
+                cursor: pointer;
+            }
+        }
+    
+        .nav-items {
+            list-style-type: none;
+            font-size: 13px;
+    
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+    
+            li + li {
+                margin-left: 10px;
+            }
+    
+            .first-row {
+                margin-bottom: 20px;
+            }
+    
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .hamburger-icon {
+            display: none;
+        }
+    }
+}
+
+
+

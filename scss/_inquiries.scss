@@ -1,0 +1,25 @@
+.inquiries-container {
+    text-align: center;
+    width: 90%;
+    max-width: 940px;
+    margin: auto;
+
+    h1 {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    .dis {
+        text-align: left;
+        line-height: 29px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .war {
+        text-align: left;
+        font-size: 12px;
+        opacity: .8;
+    }
+}
