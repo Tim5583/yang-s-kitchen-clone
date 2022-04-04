@@ -1,0 +1,16 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,28 @@
+.contact-container {
+    width: 90%;
+    max-width: 920px;
+    margin: auto;
+    text-align: center;
+
+    .contact-h1 {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .contact-p {
+        margin-top: 20px;
+        opacity: .8;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .btn {
+        opacity: .5;
+    }
+
+    .btn:hover {
+        opacity: 1;
+    }
+}
